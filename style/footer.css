@@ -1,0 +1,20 @@
+.footer {
+  grid-area: footer;
+  border-top: 3px solid white;
+  background-color: black;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer > div {
+  color: azure;
+  align-self: center;
+  text-align: center;
+}
+
+.footer-link:visited,
+.header-link:visited {
+  text-decoration: none;
+  color: azure;
+}
