@@ -29,6 +29,29 @@ h1 {
   border: 1px solid black;
 }
 
+.author-info {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.bio {
+  margin: 1em;
+  padding: 50px;
+  border: 3px solid black;
+  border-radius: 50%;
+  align-self: center;
+  font-weight: bold;
+}
+
+.avatar > img {
+  height: 250px;
+  width: auto;
+  border-radius: 50%;
+  border: solid 3px black;
+}
+
 .socials {
   margin: 1em;
   padding: 1em;
