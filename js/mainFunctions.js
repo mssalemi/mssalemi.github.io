@@ -40,15 +40,15 @@ function addToPage() {
     let para = document.querySelector("#ccf-subject").value;
     let abv = document.querySelector("#ccf-title").value.substring(0,3);
     console.log(`${abv} - ${title} \n${para}`);
-    createContentSection(title, para);
+    createContentSection(title, para, abv);
     addToHeader(abv);
     toggleCCF();
   }
 }
 
-
-function createContentSection(title, para) {
+function createContentSection(title, para, abv) {
   let node = document.createElement("DIV");
+  node.setAttribute("id", abv);
   node.classList.add("content-section");
   node.innerHTML = `<h2>${title}</h2>
                     <p>${para}</p>
@@ -58,7 +58,7 @@ function createContentSection(title, para) {
 
 function addToHeader(abv) {
   let node = document.createElement("li");
-  node.innerHTML = abv;
+  node.innerHTML = `<a href="#${abv}">${abv}</a>`;
   document.querySelector("#dynamic-nav-items").appendChild(node);
 }
 
