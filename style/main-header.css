@@ -1,0 +1,63 @@
+.logo {
+  background-color: black;
+  padding: 10px 10px 0px 10px;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 4fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-logo,
+.plus-logo {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+
+.logo-text {
+  font-size: 10px;
+  text-align: center;
+  color: white;
+}
+
+.add-btn,
+.add-btn:visited,
+.add-btn:focus {
+  padding: 0.5em 3em;
+  border: 1px solid white;
+  font-size: 10px;
+  font-weight: 500;
+  color: white;
+  background-color: transparent;
+  border-radius: 4px;
+  outline: none;
+}
+
+.add-btn:hover {
+  border: tomato dotted 1px;
+  color: tomato;
+}
+
+.add-btn:active {
+  text-decoration: underline;
+}
+
+#dynamic-nav-items {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 10px;
+  gap: 10px;
+  background-color: black;
+}
+
+ul {
+  list-style: none;
+  color: aliceblue;
+}
+
+li {
+  padding: 5px;
+}
