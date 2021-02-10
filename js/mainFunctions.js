@@ -89,3 +89,13 @@ contentSection.addEventListener("click", function(e) {
   }
 });
 
+// Adding Active state to current mouve hover area
+const contentArea = document.getElementById("all-content-section");
+
+contentArea.addEventListener("mouseover", function(e) {
+  e.target.classList.toggle("active");
+});
+
+contentArea.addEventListener("mouseout", function(e) {
+  e.target.classList.toggle("active");
+});

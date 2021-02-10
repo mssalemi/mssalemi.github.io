@@ -8,6 +8,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Mukta", sans-serif;
 }
@@ -26,4 +30,8 @@ body {
 
 .main-section {
   display: none;
+}
+
+.active {
+  background-color: antiquewhite;
 }
