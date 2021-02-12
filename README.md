@@ -1,13 +1,16 @@
 # Landing Page Project
 
-## Table of Contents
+## Technolgoies
+HTML,CSS, JavaScript
 
-* [Instructions](#instructions)
+## About
+This project took the standard project files and tranformed into a dynamically loaded landing page. 
 
-## Instructions
+Features included:
+- Dynamic Loading of Navigation Items Based on Content from Sections 
+- Smooth Scroll Effect for Scrolling
+- Event Listener for Scroll, and updates style of the navbar deping on page location
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
 
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+Future Improvement:
+- Make the Event Listen also load dynamically, it is hard coded in 
