@@ -1,0 +1,19 @@
+/* WEATHER BOX GLOW EFFECT */
+
+.warm-box {
+  box-shadow: 0 0 30px 15px rgb(235, 228, 162),
+    /* inner white */ 0 0 25px 30px rgb(247, 210, 218),
+    /* middle magenta */ 0 0 35px 22px rgb(248, 116, 83); /* outer cyan */
+}
+
+.cool-box {
+  box-shadow: 0 0 30px 15px rgb(134, 212, 248),
+    /* inner white */ 0 0 25px 30px rgb(210, 240, 247),
+    /* middle magenta */ 0 0 35px 22px rgb(83, 141, 248); /* outer cyan */
+}
+
+.cloudy-box {
+  box-shadow: 0 0 30px 15px rgb(235, 162, 211),
+    /* inner white */ 0 0 25px 30px rgb(70, 231, 231),
+    /* middle magenta */ 0 0 35px 22px rgb(248, 116, 83); /* outer cyan */
+}

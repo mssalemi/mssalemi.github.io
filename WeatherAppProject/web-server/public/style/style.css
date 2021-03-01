@@ -1,0 +1,31 @@
+@import "glowStyles.css";
+@import "titleBox.css";
+@import "weatherBox.css";
+@import "otherBox.css";
+@import "weatherData.css";
+
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(50px, auto);
+  justify-items: center;
+}
+
+.box {
+  /*  TESTING
+  border: 1px solid red;
+  */
+  padding: 15px;
+  width: 300px;
+  height: auto;
+  background-color: #fff;
+}

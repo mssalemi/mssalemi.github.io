@@ -1,0 +1,15 @@
+#data {
+  padding: 0px;
+}
+
+#temp {
+  font-size: 100px;
+  font-weight: 800;
+  font-family: cursive;
+}
+
+#feels-like {
+  padding: 0px;
+  font-size: 10px;
+  color: grey;
+}

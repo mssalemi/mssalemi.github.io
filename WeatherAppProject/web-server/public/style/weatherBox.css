@@ -1,0 +1,19 @@
+.weather-flex-box {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 50px 0px;
+  justify-content: center;
+  /* display: none; */
+}
+
+.weather-pic {
+  text-align: center;
+}
+
+.weather-data {
+  text-align: center;
+}
+
+.weather-location {
+  text-align: center;
+}
