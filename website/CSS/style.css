@@ -1,0 +1,73 @@
+@import "table.css";
+
+* {
+  font-family: bitter;
+}
+
+body {
+  background: url("../IMAGES/blue-sky-over-desert.jpg") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  display: grid;
+  margin: 50px;
+  padding: 50px 25px 100px 25px;
+  grid-template-columns: 1fr;
+
+  background-image: linear-gradient(
+    to right,
+    rgba(106, 200, 236, 0.4),
+    rgba(230, 230, 230, 0.4)
+  );
+  border-radius: 25%;
+}
+
+.intro {
+  text-align: center;
+}
+
+.input-data {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-template-areas:
+    "button1 button2"
+    "generate generate";
+}
+
+.inputs {
+  padding: 12px 20px;
+}
+
+#city-input {
+  grid-area: button1;
+}
+
+#feeling-input {
+  grid-area: button2;
+}
+
+#generate {
+  grid-area: generate;
+  justify-self: center;
+
+  background-color: #008cba; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#display-data {
+  text-align: center;
+}

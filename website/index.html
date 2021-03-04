@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mehdi's Weather Journal</title>
+  <link rel="stylesheet" href="/CSS/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="intro">
+      <h1>Mehdi's Weather Journal</h1>
+    </div>
+
+    <div class="input-data">
+        <input type="text" class="inputs" id="city-input" placeholder="Enter City" required="">
+        <input type="text" class="inputs" id="feeling-input" placeholder="How does the Weather Feel?" required="">
+        <button id="generate">Generate</button>
+    </div>
+
+    <div id="display-data">
+      <h2>Most Recent Entries</h2>
+      <table id="historical-data"></table>
+    </div>
+
+
+
+
+  </div>
+
+
+  <script src="/JS/app.js" type="text/javascript"></script>
+  <!-- <script src="server.js" type="text/javascript"></script> -->
+</body>
+
+</html>
