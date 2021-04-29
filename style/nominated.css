@@ -1,0 +1,88 @@
+.nominated {
+  grid-area: nominatedBox;
+  text-align: center;
+}
+
+#nominated-display {
+  list-style-type: none;
+  text-align: end;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+.nom-display {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Codystar", cursive;
+}
+
+.nom-display > img {
+  height: 60px;
+  margin-bottom: 20x;
+}
+
+#remove-btn {
+  background-color: #ec3d3d; /* Green */
+  border: none;
+  color: white;
+  padding: 1px 16px 1px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  margin-left: 10px;
+}
+
+#remove-btn:hover {
+  background-color: #000000; /* Green */
+  color: white;
+}
+
+#pick-winner {
+  background-color: #008cba;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#pick-winner:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}

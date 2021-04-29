@@ -1,0 +1,33 @@
+.instructions-container {
+  margin-top: 15px;
+  grid-area: inst;
+}
+
+/* The alert message box */
+.alert {
+  padding: 10px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+.success {
+  padding: 10px;
+  background-color: #00cc00; /* Green */
+  color: white;
+  margin-bottom: 15px;
+}
+
+.winner {
+  padding: 10px;
+  background-color: #0066ff; /* Blue */
+  color: white;
+  margin-bottom: 15px;
+}
+
+.scroll {
+  padding: 10px;
+  background-color: #a9a9a9; /* Dark Grey */
+  color: white;
+  margin-bottom: 15px;
+}

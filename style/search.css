@@ -1,0 +1,15 @@
+.hi {
+  grid-area: intro;
+}
+
+.search {
+  grid-area: searchBox;
+  padding: 12px 20px;
+}
+.search-bar {
+  width: 75%;
+}
+
+.search-btn {
+  width: 20%;
+}

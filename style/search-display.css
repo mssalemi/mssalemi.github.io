@@ -1,0 +1,131 @@
+.search-display {
+  grid-area: displaySearchBox;
+
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "image info"
+    "image btns";
+  font-family: "Special Elite", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-size: 16px;
+}
+
+.search-display > h6 {
+  font-style: italic;
+}
+
+#next-btn {
+  float: right;
+  margin-right: 30px;
+  width: 40px;
+  height: 35px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: rgb(6, 250, 79);
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+#nominate-btn {
+  width: 100px;
+  height: 35px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: rgb(250, 124, 6);
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+#nominate-btn:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+#nominate-btn:active {
+  color: #000;
+}
+
+#nominate-btn:active:after {
+  background: transparent;
+}
+
+#nominate-btn:hover:before {
+  opacity: 1;
+}
+
+#nominate-btn:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+#nominate-btn:disabled,
+#nominate-btn[disabled] {
+  visibility: hidden;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.movie-img {
+  height: 270px;
+  width: 190px;
+  grid-area: image;
+  font-family: cursive;
+  margin-right: 25px;
+}
+
+.movie-info {
+  grid-area: info;
+}
+.movie-action {
+  grid-area: btns;
+  align-self: flex-end;
+  margin-bottom: 10px;
+}
