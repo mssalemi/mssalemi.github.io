@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style/intro-page-style/intro-page.css">
-  <title>Welcome!</title>
+  <title>Mehdi's Portfolio</title>
 </head>
 <body>
       <!-- Navigation -->
@@ -29,22 +29,24 @@
     <section id="home">
         <div class="title-group">
             <div id="mehdi-intro-box">
-                <img src="img/mehdi_cartoon.png">
-                <p>Hi, my name is <strong>Mehdi Salemi</strong> and I am an <strong>Aspiring Front End Developer!</strong></p>
-                <p>I am a self-taught web developer who is currrently spending the nights after work studying Web Developement, below are some of the technolgoies I have been working on.</p>
-                <div id="icons">
-                    <img src="img/html.png">
-                    <img src="img/css.png">
-                    <img src="img/js.png">
-                    <img src="img/react.png">
-                    <img src="img/node.png">
+                <img id="mehdi-img" src="img/mehdi_cartoon.png">
+                <p>Hi, my name is <strong>Mehdi Salemi</strong>.<br>I am an <strong>Aspiring Front End Developer!</strong></p><hr>
+                <p>I am a self-taught web developer, and will be attending <strong>General's Assembly Software Engineering Immersive Bootcamp </strong>(Flex - Night Option) from May - November!</p>
+                <hr><p>My focus has been on: </p>
+                <div>
+                    <img id="icons" src="img/core.png">
                 </div>
-                <p>Currently Enrolled in: <br><strong>General Assembly Software Engineering Immervice Bootcamp</strong><br>*Flex (May 27th - November 15th)</p>
-                <p>My goal is to land a job at Shopify as a Front End Developer through this Internship. Please scroll down to view my project that I have completed for this internship! I have attached a <a href="To whom it may concern at Shopify.docx" download>PDF here to download</a>, if you want to review my thought process while creating to project.</p>
+                <p>I have started to look at <strong>React</strong> .... and <u>seriously</u> love it for building UI applications.</p><hr>
+                <p>Currently Enrolled in:<br><br></p>
+                <div>
+                    <img id="ga" src="img/ga.png">
+                </div>
+                <p><strong>General Assembly Software Engineering Immervice Bootcamp</strong></p><br>
+                <p>My goal is to land a job at Shopify as a Front End Developer through this Internship. Please scroll down to view my project that I have completed for this internship! I have attached my <a href="info.pdf" download> resume</a>, if you want to review and see my past expierence.</p>
+                <br><hr>
+                <p> Current Role:<br><strong>Support Specailist with Shopify Plus</strong></p>
                 <br>
-                <p> Currnetl Role:<br><strong>Support Specailist with Shopify Plus</strong></p>
-                <br>
-                <p>If asked to move to next steps of interview process - I would like to present a React Version of this Movie App, the current version I have used Javascript, HTML, CSS!</p>
+                <p>If asked to move to next steps of itnerview - I would love to present another basic React App that I have created! (<strong><i>Expense Tracker</i></strong>) In this App I use all function component to add expenses to a list, and can filter those expenses by year!</p>
             </div>
         </div>
     </section>
@@ -53,7 +55,7 @@
         <h1>About Me</h1>
         <div class="about-container">
             <div class="image-container" id="aspiring-dev">
-                <h2>Aspiring Front End Developer</h2>
+                <h2>Passion for UI</h2>
                 <img id="image1" src="img/project-img-light.svg">
             </div>
             <div class="image-container" id="team-player">
@@ -70,10 +72,11 @@
     <section id="projects">
         <h1> Movie App Challenge</h1>
         <div class="buttons">
-            <a href="https://mssalemi.github.io/react-movie-app/"><button class="primary">Movie App with React</button></a>
+            <a target="_blank" href="https://mssalemi.github.io/react-movie-app/"><button class="primary">Movie App with React</button></a>
         </div>
         <div class="text-box" id="text-box">
-            <strong>Tech</strong>
+            <p>Code for my project can be seen <a target="_blank" href="https://github.com/mssalemi/react-movie-app">here</a></p>
+            <br><strong>Tech</strong>
              <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -85,11 +88,16 @@
                 <li>Use OMBD API to get Movie Data (Poster, Year, Title)</li>
                 <li>User Search is presented with movies that match the search</li>
                 <li>Movie title, year, picture are displayed </li>
+                <li>User can choose to nominate</li>
+                <li>User can only nominate a movie once</li>
+                <li>Can remove from Nominate List</li>
              </ul>
-             <strong>Missing Features</strong> (Will Display at Future Interview)
+             <strong>Missing Features</strong>
              <ul>
                 <li>Nomiated List does not have a limit of 5</li>
+                <li>Movie List does not clear automatically</li>
                 <li>Alert Messages</li>
+                <li>Not Mobile Friendly</li>
              </ul>
         </div>
     </section>  

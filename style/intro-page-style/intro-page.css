@@ -75,7 +75,7 @@ a:focus {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
-  grid-template-areas: ". info .";
+  grid-template-areas: "other info other";
 }
 
 /* About Section */
@@ -99,17 +99,22 @@ img {
   width: 300px;
 }
 
+#ga {
+  width: 500px;
+}
+
 #mehdi-intro-box {
   border: 2px black solid;
   background: white;
   padding: 25px;
   margin: 200px 200px;
   color: black;
-  font-size: 16px;
+  font-size: 24px;
   grid-area: info;
 }
 #icons {
-  margin: 10px 0;
+  width: 400px;
+  height: 250px;
 }
 
 #icons > img {
