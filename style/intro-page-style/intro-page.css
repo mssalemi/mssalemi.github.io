@@ -100,7 +100,8 @@ img {
 }
 
 #ga {
-  width: 500px;
+  width: 400px;
+  height: 200px;
 }
 
 #mehdi-intro-box {
@@ -114,7 +115,7 @@ img {
 }
 #icons {
   width: 400px;
-  height: 250px;
+  height: 200px;
 }
 
 #icons > img {
